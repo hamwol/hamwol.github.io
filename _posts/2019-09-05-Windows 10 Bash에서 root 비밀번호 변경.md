@@ -20,13 +20,13 @@ tags:
 >ubuntu config --default-user root
 ```
 
-1. 이제 bash를 치면 root로 들어가 있습니다. 거기서 root 비밀번호를 변경합니다.
+2. 이제 bash를 치면 root로 들어가 있습니다. 거기서 root 비밀번호를 변경합니다.
 
 ```
 #passwd root
 ```
 
-1. bash를 빠져나와서 기본 사용자를 되돌려 놓습니다.
+3. bash를 빠져나와서 기본 사용자를 되돌려 놓습니다.
 
 ```
 >ubuntu config --default-user [내 계정]
